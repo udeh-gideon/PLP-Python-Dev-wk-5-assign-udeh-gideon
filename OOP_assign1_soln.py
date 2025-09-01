@@ -15,7 +15,7 @@ class Smartphone:
             print('Battery too low to make a call!')
 
     def install_app(self, app_name):
-        if self.storage != '0':
+        if self.storage != '0GB':
             print(f'{app_name} installed on {self.model}.')
         else:
             print('Insufficient Storage Space!')
@@ -45,7 +45,7 @@ class GamingSmartphone(Smartphone):
 
 # Quick Demo
 if __name__ == '__main__':
-    phone1 = Smartphone('Samsung', 'Galaxy S23', '256GB', 85)
+    phone1 = Smartphone('Samsung', 'Galaxy S23', '0GB', 85)
     phone1.make_call('08012345678')
     phone1.install_app('WhatsApp')
     phone1.battery_status()
