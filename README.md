@@ -1,4 +1,4 @@
-# Assignment 1 & 2 - Python OOP Practice
+# Assignment 1 & Activity 2 - Python OOP Practice
 
 This project demonstrates Object-Oriented Programming (OOP) concepts in Python, including classes, constructors, attributes, methods, inheritance, encapsulation, and polymorphism.
 
